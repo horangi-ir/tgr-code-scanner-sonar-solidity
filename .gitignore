@@ -15,3 +15,12 @@ dependency-reduced-pom.xml
 
 .java-version
 solidity-its/src/test/resources/*
+
+# ---- Scanner
+.scannerwork
+
+# ---- Visual Studio Code
+.vscode
+
+# ---- antlr4
+solidity-frontend/src/main/antlr4/org/sonarsource/solidity/frontend/.antlr

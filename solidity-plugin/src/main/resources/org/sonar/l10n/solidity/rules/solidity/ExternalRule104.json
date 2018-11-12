@@ -1,0 +1,12 @@
+{
+	"title": "Avoid checking for strict balance equality.",
+	"type": "CODE_SMELL",
+	"status": "ready",
+	"remediation": {
+		"func": "Constant/Issue",
+		"constantCost": "2min"
+	},
+	"tags": [ "convention" ],
+	"defaultSeverity": "MINOR",
+	"sqKey": "ExampleRule104"
+}

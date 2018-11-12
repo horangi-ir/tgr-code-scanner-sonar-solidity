@@ -1,0 +1,12 @@
+{
+	"title": "Explicitly label the visibility.",
+	"type": "CODE_SMELL",
+	"status": "ready",
+	"remediation": {
+		"func": "Constant/Issue",
+		"constantCost": "2min"
+	},
+	"tags": [ "convention" ],
+	"defaultSeverity": "MINOR",
+	"sqKey": "ExampleRule140"
+}

@@ -1,0 +1,12 @@
+{
+	"title": "Using uint in place of var.",
+	"type": "CODE_SMELL",
+	"status": "ready",
+	"remediation": {
+		"func": "Constant/Issue",
+		"constantCost": "2min"
+	},
+	"tags": [ "convention" ],
+	"defaultSeverity": "MINOR",
+	"sqKey": "ExampleRule139"
+}

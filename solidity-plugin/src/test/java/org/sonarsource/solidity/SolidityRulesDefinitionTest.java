@@ -22,10 +22,11 @@ public class SolidityRulesDefinitionTest {
     assertThat(repository.name()).isEqualTo(SolidityRulesDefinition.REPO_NAME);
     assertThat(repository.language()).isEqualTo("solidity");
     // assertThat(repository.rules()).hasSize(3);
-    assertThat(repository.rules()).hasSize(24);
-    List<Rule> activated = repository.rules().stream().filter(x -> x.status().name().equals("READY")).collect(Collectors.toList());
+    assertThat(repository.rules()).hasSize(31);
+    List<Rule> activated = repository.rules().stream().filter(x -> x.status().name().equals("READY"))
+        .collect(Collectors.toList());
     assertThat(activated).isNotEmpty();
-    assertThat(activated.size()).isEqualTo(24);
+    assertThat(activated.size()).isEqualTo(31);
   }
 
   @Test
@@ -46,7 +47,8 @@ public class SolidityRulesDefinitionTest {
   public void error_case() {
     RulesDefinition.Context context = new RulesDefinition.Context();
     try {
-      AbstractExternalReportSensor.createExternalRuleRepository(context, "wrong_linter_id", SoliumReportSensor.LINTER_NAME);
+      AbstractExternalReportSensor.createExternalRuleRepository(context, "wrong_linter_id",
+          SoliumReportSensor.LINTER_NAME);
     } catch (Exception e) {
       assertThat(e).isNotNull();
     }
