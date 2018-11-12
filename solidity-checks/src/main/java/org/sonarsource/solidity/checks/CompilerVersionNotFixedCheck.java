@@ -11,9 +11,6 @@ public class CompilerVersionNotFixedCheck extends IssuableVisitor {
 
   @Override
   public ParseTree visitPragmaDirective(PragmaDirectiveContext ctx) {
-    System.out.println("\n---- ctx");
-    System.out.println(ctx.pragmaValue().getText());
-    System.out.println("----");
 
     if (isNotFixedVersion(ctx.pragmaValue().getText())) {
       ruleContext().addIssue(ctx.getStart(), ctx.getStop(), "Solidity compiler version not fixed", RULE_KEY);

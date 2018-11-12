@@ -11,9 +11,6 @@ public class UsingVarCheck extends IssuableVisitor {
 
     @Override
     public ParseTree visitElementaryTypeName(ElementaryTypeNameContext ctx) {
-        System.out.println("\n----");
-        System.out.println(ctx.getText());
-
         if ("var".equals(ctx.getText())) {
             ruleContext().addIssue(ctx.getStart(), ctx.getStop(), "Using actual data type in place of var.", RULE_KEY);
         }
