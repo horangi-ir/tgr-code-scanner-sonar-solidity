@@ -1,3 +1,75 @@
+# The list of original 15 rules
+**Note:** There is no rule 5, 10, 11, 12, 18, 19, 20, 21, 22
+
+| SN | Name | Description |
+|:------------- |:-------------|:-----|
+| ExternalRule1 | LatestVersionCheck ||
+| ExternalRule2 | ContractNotEmptyCheck ||
+| ExternalRule3 | EmptyFileCheck ||
+| ExternalRule4 | EmptyFunctionCheck ||
+| ExternalRule6 | CurlyBraceCheck ||
+| ExternalRule7 | ConstructorVisibilityCheck ||
+| ExternalRule8 | DeprecatedConstructorCheck ||
+| ExternalRule9 | CognitiveComplexityCheck, CognitiveComplexityVisitor ||
+| ExternalRule13 | DeprecatedSuicideCheck ||
+| ExternalRule14 | AvoidTxOriginCheck ||
+| ExternalRule15 | AvoidSha3Check ||
+| ExternalRule16 | AccessRestrictionPatternCheck ||
+| ExternalRule17 | GuardCheckPatternCheck ||
+| ExternalRule22 | CheckEffectsCheck ||
+| ExternalRule23 | BytesLowerGasCheck ||
+
+---
+# The list of new 40 rules
+
+Note: some new rules implemented in original rules.
+***TBI*** = To Be Implemented.
+
+| SN | Name | Description |
+|:-------------|:-------------|:-----|
+| ExternalRule102 | AddressHardcodedCheck ||
+| ExternalRule103 | ***TBI*** ||
+| ExternalRule104 | BalanceEqualityCheck ||
+| ExternalRule105 | BytesLowerGasCheck | = ExternalRule23|
+| ExternalRule106 | ***TBI*** ||
+| ExternalRule107 | CompilerVersionNotFixedCheck ||
+| ExternalRule108 | ***TBI*** ||
+| ExternalRule109 | ***TBI*** ||
+| ExternalRule111 | ***TBI*** ||
+| ExternalRule112 | ***TBI*** ||
+| ExternalRule113 | ***TBI*** ||
+| ExternalRule114 | ***TBI*** ||
+| ExternalRule115 | ImplicitVisibilityLevelCheck ||
+| ExternalRule116 | IntegerOverflowUnderflowCheck ||
+| ExternalRule117 | ***TBI*** ||
+| ExternalRule118 | ***TBI*** ||
+| ExternalRule119 | ***TBI*** ||
+| ExternalRule120 | ***TBI*** ||
+| ExternalRule121 | ***TBI*** ||
+| ExternalRule122 | ***TBI*** ||
+| ExternalRule123 | ***TBI*** ||
+| ExternalRule124 | ***TBI*** ||
+| ExternalRule125 | ***TBI*** ||
+| ExternalRule126 | ***TBI*** ||
+| ExternalRule127 | ***TBI*** ||
+| ExternalRule128 | ***TBI*** ||
+| ExternalRule129 | ***TBI*** ||
+| ExternalRule130 | ***TBI*** ||
+| ExternalRule131 | UsingVarCheck | = ExternalRule139|
+| ExternalRule132 | AvoidTxOriginCheck | = ExternalRule14|
+| ExternalRule133 | ***TBI*** ||
+| ExternalRule134 | ***TBI*** ||
+| ExternalRule135 | ***TBI*** ||
+| ExternalRule136 | AvoidSha3Check | = ExternalRule15|
+| ExternalRule137 | DeprecatedSuicideCheck | = ExternalRule13|
+| ExternalRule138 | UsingThrowCheck ||
+| ExternalRule139 | UsingVarCheck ||
+| ExternalRule140 | ExplicitlyLabelVisibilityCheck ||
+
+
+---
+
+
 # Sonar-Solidity [![Build Status](https://travis-ci.org/sagap/sonar-solidity.svg?branch=master)](https://travis-ci.org/sagap/sonar-solidity) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=org.sonarsource.solidity%3Asonar-solidity&metric=alert_status)](https://sonarcloud.io/dashboard?id=org.sonarsource.solidity%3Asonar-solidity) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=org.sonarsource.solidity%3Asonar-solidity&metric=coverage)](https://sonarcloud.io/component_measures?id=org.sonarsource.solidity%3Asonar-solidity&metric=coverage)
 
 **SonarSolidity**: is a SonarQube static code analyzer for Solidity Smart Contracts.
