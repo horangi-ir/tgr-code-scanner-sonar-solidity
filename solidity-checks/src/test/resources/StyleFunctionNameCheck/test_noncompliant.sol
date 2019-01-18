@@ -1,6 +1,6 @@
 pragma solidity ^0.4.22;
 
-contract StyleFunctionNameCheckConstruct {
+contract StyleFunctionNameCheckContract {
 
     mapping (address => uint) private balances;
 

@@ -1,5 +1,5 @@
 {
-	"title": "Function Argument Name should use mixedCase.",
+	"title": "Event Name should use mixedCase.",
 	"type": "CODE_SMELL",
 	"status": "ready",
 	"remediation": {
@@ -8,5 +8,5 @@
 	},
 	"tags": [ "convention" ],
 	"defaultSeverity": "MINOR",
-	"sqKey": "ExampleRule204"
+	"sqKey": "ExampleRule203"
 }
