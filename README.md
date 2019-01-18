@@ -49,7 +49,7 @@ Note: some new rules implemented in original rules.
 | ExternalRule122 | ***TBI*** ||
 | ExternalRule123 | ***TBI*** ||
 | ExternalRule124 | ***TBI*** ||
-| ExternalRule125 | ***TBI*** ||
+| ExternalRule125 | StyleGuideViolationCheck | = ExternalRule203+204+205|
 | ExternalRule126 | ***TBI*** ||
 | ExternalRule127 | ***TBI*** ||
 | ExternalRule128 | ***TBI*** ||
@@ -65,6 +65,9 @@ Note: some new rules implemented in original rules.
 | ExternalRule138 | UsingThrowCheck ||
 | ExternalRule139 | UsingVarCheck ||
 | ExternalRule140 | ExplicitlyLabelVisibilityCheck ||
+| ExternalRule203 | StyleEventNameCheck ||
+| ExternalRule204 | StyleFunctionArgumentNameCheck ||
+| ExternalRule205 | StyleFunctionNameCheck ||
 
 
 ---
