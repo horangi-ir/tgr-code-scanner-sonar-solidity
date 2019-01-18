@@ -15,8 +15,6 @@ public class StyleFunctionNameCheck extends IssuableVisitor {
 
         IdentifierContext ictx = ctx.identifier();
 
-        System.out.println(ictx.getText());
-
         String camelCasePattern = "([a-z]+[A-Z]+\\w+)+";
 
         if (!ictx.getText().matches(camelCasePattern)) {

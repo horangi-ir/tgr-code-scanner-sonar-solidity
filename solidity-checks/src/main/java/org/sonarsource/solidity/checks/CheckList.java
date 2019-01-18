@@ -20,6 +20,7 @@ public final class CheckList {
         .add(TightVariablePackingCheck.class).add(DeprecatedVarCheck.class).add(BalanceEqualityCheck.class)
         .add(CompilerVersionNotFixedCheck.class).add(ImplicitVisibilityLevelCheck.class)
         .add(IntegerOverflowUnderflowCheck.class).add(UsingThrowCheck.class).add(UsingVarCheck.class)
-        .add(ExplicitlyLabelVisibilityCheck.class).add(StyleFunctionNameCheck.class).build();
+        .add(ExplicitlyLabelVisibilityCheck.class).add(StyleFunctionArgumentNameCheck.class)
+        .add(StyleFunctionNameCheck.class).build();
   }
 }
