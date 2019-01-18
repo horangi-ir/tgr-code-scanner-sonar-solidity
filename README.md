@@ -2,7 +2,7 @@
 **Note:** There is no rule 5, 10, 11, 12, 18, 19, 20, 21, 22
 
 | SN | Name | Description |
-|:------------- |:-------------|:-----|
+|-------------- |--------------|-----|
 | ExternalRule1 | LatestVersionCheck ||
 | ExternalRule2 | ContractNotEmptyCheck ||
 | ExternalRule3 | EmptyFileCheck ||
@@ -26,7 +26,7 @@ Note: some new rules implemented in original rules.
 ***TBI*** = To Be Implemented.
 
 | SN | Name | Description |
-|:-------------|:-------------|:-----|
+|-----------------|-------------|-----|
 | ExternalRule102 | AddressHardcodedCheck ||
 | ExternalRule103 | ***TBI*** ||
 | ExternalRule104 | BalanceEqualityCheck ||

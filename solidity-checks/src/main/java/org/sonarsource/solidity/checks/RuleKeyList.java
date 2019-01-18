@@ -15,6 +15,7 @@ public final class RuleKeyList {
         .add("ExternalRule15").add("ExternalRule16").add("ExternalRule17").add("ExternalRule18").add("ExternalRule19")
         .add("ExternalRule20").add("ExternalRule21").add("ExternalRule22").add("ExternalRule23").add("ExternalRule24")
         .add("ExternalRule25").add("ExternalRule104").add("ExternalRule107").add("ExternalRule115")
-        .add("ExternalRule116").add("ExternalRule138").add("ExternalRule139").add("ExternalRule140").build();
+        .add("ExternalRule116").add("ExternalRule138").add("ExternalRule139").add("ExternalRule140")
+        .add("ExternalRule205").build();
   }
 }
