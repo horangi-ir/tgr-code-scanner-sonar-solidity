@@ -18,7 +18,7 @@ public final class CheckList {
         .add(StringEqualityComparisonCheck.class).add(OraclePatternCheck.class).add(TransferEtherSecurelyCheck.class)
         .add(RandomnessCheck.class).add(BytesLowerGasCheck.class).add(CheckEffectsCheck.class)
         .add(TightVariablePackingCheck.class).add(DeprecatedVarCheck.class).add(BalanceEqualityCheck.class)
-        .add(CompilerVersionNotFixedCheck.class).add(ImplicitVisibilityLevelCheck.class)
+        .add(CompilerVersionNotFixedCheck.class).add(LoopCheck.class).add(ImplicitVisibilityLevelCheck.class)
         .add(IntegerOverflowUnderflowCheck.class).add(UsingThrowCheck.class).add(UsingVarCheck.class)
         .add(ExplicitlyLabelVisibilityCheck.class).add(StyleEventNameCheck.class)
         .add(StyleFunctionArgumentNameCheck.class).add(StyleFunctionNameCheck.class).build();
