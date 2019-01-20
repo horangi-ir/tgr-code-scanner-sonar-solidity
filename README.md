@@ -37,7 +37,7 @@ Note: some new rules implemented in original rules.
 | ExternalRule109 | ***TBI*** ||
 | ExternalRule111 | ***TBI*** ||
 | ExternalRule112 | ***TBI*** ||
-| ExternalRule113 | ***TBI*** ||
+| ExternalRule113 | LoopCheck ||
 | ExternalRule114 | ***TBI*** ||
 | ExternalRule115 | ImplicitVisibilityLevelCheck ||
 | ExternalRule116 | IntegerOverflowUnderflowCheck ||
